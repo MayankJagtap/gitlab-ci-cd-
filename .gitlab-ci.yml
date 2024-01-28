@@ -13,5 +13,5 @@ deploy:
   stage: deploy_stage   
   script:
      - apt update -y
-     - apt install  node.js -y
+     - apt install node.js -y
      - node app.js
