@@ -1,4 +1,4 @@
-# nodejs-app
+# nodejsapplication
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/devops7111804/nodejs-app.git
+git remote add origin https://gitlab.com/N4si/nodejsapplication.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/devops7111804/nodejs-app/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.com/N4si/nodejsapplication/-/settings/integrations)
 
 ## Collaborate with your team
 
