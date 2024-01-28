@@ -3,14 +3,14 @@ stages:
   - deploy_stage   
 
 build:
-  stage: - build_stage
+  stage: build_stage
   script:
   - apt update -y
   - apt install nmp  -y
   - npm install  
 
   deploy:
-    stage: - deploy_stage   
+    stage: deploy_stage   
     script:
     - apt update -y
     - apt install  node.js -y
