@@ -4,9 +4,10 @@ stages:
 
 build:
   stage: build_stage
+  image: node
   script:
-    - apt update
-    - apt install npm -y
+    # - apt update
+    # - apt install npm -y
     - npm install
   artifacts:
     paths:
@@ -14,9 +15,10 @@ build:
       - package-lock.json 
 deploy:
   stage: deploy_stage
+  image: node
   script:
-    - apt update - 
-    - apt install nodejs 
-    - node app.js
+    # - apt update - 
+    # - apt install nodejs -y
+    - node app.js > /dev/null 2&1 &
     
        
