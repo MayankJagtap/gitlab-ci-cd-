@@ -10,8 +10,8 @@ build:
   - npm  install  
 
   deploy:
-    stages:
-    script:- deploy_stage   
+    stages: - deploy_stage   
+    script:
     - apt update -y
     - apt install  node.js -y
     - node app.js
