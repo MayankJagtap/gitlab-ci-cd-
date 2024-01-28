@@ -6,7 +6,7 @@ build:
   stage: build_stage
   script:
   - apt update -y
-  - apt install nmp  -y
+  - apt npm install -y
   - npm install  
 
 deploy:
