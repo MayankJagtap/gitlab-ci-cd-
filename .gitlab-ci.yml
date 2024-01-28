@@ -6,12 +6,12 @@ build:
   stage: build_stage
   script:
   - apt update -y
-  - apt install npm -y
+  - apt npm install -y
   - npm install  
 
 deploy:
   stage: deploy_stage   
   script:
      - apt update -y
-     - apt install node.js -y
+     - apt install nodejs -y
      - node app.js
